@@ -1,0 +1,3 @@
+python -m allure generate --clean
+pytest tests/Alltest.py --alluredir=allure-report/
+python -m allure serve allure-report/
